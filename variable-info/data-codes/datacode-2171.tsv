@@ -1,0 +1,9 @@
+coding	meaning
+20	Death register only
+21	Death register and other source(s)
+30	Primary care only
+31	Primary care and other source(s)
+40	Hospital admissions data only
+41	Hospital admissions data and other source(s)
+50	Self-report only
+51	Self-report and other source(s)

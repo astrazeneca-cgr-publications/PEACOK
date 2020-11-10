@@ -1,0 +1,11 @@
+Package: PEACOK
+Type: Package
+Title: Phenome Exome Association and Correlation Of Key phenotypes
+Version: 1.0.7
+Date: 2020-02-14
+Author: Quanli Wang, Slave Petrovski
+Maintainer: Quanli Wang <quanliwang20@hotmail.com>
+Description: This tool set re-implements, customizes and enhances the phenome scan functionlities of the original PHESANT R programs as described in https://github.com/MRCIEU/PHESANT. In this implementation, while trying to make it compatiable with the original approach, we focus on seperating phenotype matrix generation from statistical association tests and allowing statistical tests to be performed seperately on different computing envrionments.
+License: GPL (>= 3)
+Depends: MASS, optparse, tidyr, dplyr, methods
+Imports: nnet, data.table, lmtest,R.utils, Matrix

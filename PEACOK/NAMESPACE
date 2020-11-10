@@ -1,0 +1,17 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "coef", "complete.cases", "confint", "end", "glm",
+             "lm", "model.matrix", "na.omit", "pnorm", "qnorm",
+             "quantile", "relevel", "median", "binomial", "fisher.test")
+importFrom("utils", "read.table", "type.convert", "write.table", 
+             "data", "download.file", "read.csv")
+importFrom("data.table", "fread")
+importFrom("nnet", "multinom")
+importFrom("MASS","polr")
+importFrom("lmtest","coeftest", "lrtest")
+importFrom("optparse", "print_help","parse_args", "OptionParser")
+importFrom("methods", "as", "is")
+import(Matrix)
+import(R.utils)
+import(tidyr)
+import(dplyr)
+

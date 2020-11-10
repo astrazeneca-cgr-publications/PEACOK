@@ -1,0 +1,13 @@
+coding	meaning
+6	English HES Data
+9	UKB SMR 01B (HES)
+10	UKB SMR 01A (HES)
+12	PEDW In-Patient Data
+15	SMR01B-V2
+18	UK HES In Patient (2015 format)
+21	PEDW HES 2015
+28	SMR01B-V3
+60	UKB HES Critical Care
+68	UKB Scottish inpatient (SMR01) v4
+70	UK HES Inpatients (2017 format)
+71	UKB HES inpatient (2018 onwards)
