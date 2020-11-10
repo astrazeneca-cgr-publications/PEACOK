@@ -1,5 +1,5 @@
 # PEACOK
-##Phenome Exome Association and Correlation Of Key phenotypes
+## Phenome Exome Association and Correlation Of Key phenotypes
 
 This R package  re-implements, customizes and enhances the phenome scan functionlities of the original PHESANT R programs as described in https://github.com/MRCIEU/PHESANT. In this implementation, while trying to make it compatiable with the original approach, we focus on seperating phenotype matrix generation from statistical association tests and allowing statistical tests to be performed seperately on different computing envrionments, such as a high perforance comuting cluster or an AWS Batch envrionment. 
 
