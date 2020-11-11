@@ -21,8 +21,8 @@ R 3.6.1 or above is needed to use this package. Sucessful instalation of PEACOK 
 ## Folder structures
 
 * PEACOK.pdf: the most up to date PEACOK R package documentation.
-* varaible-info: This folder holds example UKB field definition file as well as the  data coding deifintionfile  that will be used by PEACOK package. Infomation on updating and modifying these files can be found in the README.rd file in coresponding sub folders. We also include the dat data-codes downloaded from UK biobank portal. The current version is 41065.
-* versions: This folder will keep snapshots of each version when they are released. The companion R documentation PDF file will also be include in each sub folder. The current version of PEACOK is 1.0.7.
+* varaible-info: This folder holds example UKB field definition file as well as the  data coding definition file  that will be used by the package. Infomation on updating and modifying these files can be found in the README.md file in coresponding sub folders. We also include all the data codes downloaded from the UK Biobank portal. The current release is 41065.
+* versions: This folder will keep snapshots of each version when they are released. The companion R documentation PDF file will also be included in each sub folder. The current version of PEACOK is 1.0.7.
 * PEACOK: the source code folder for the current version of the package.
 * data: this folder will hold the example data sets to be used by PEACOK code examples.
 * examples: this folder will give code examples demostrating the package capabilities.
