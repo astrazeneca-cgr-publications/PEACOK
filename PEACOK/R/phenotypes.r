@@ -37,7 +37,8 @@ load.phenotypes <- function(opt) {
     } 
 
   	## this is type conversion as used in the read.table function (that we used to use ((this was changed because read.table cannot read column subsets))
-  	data <- data.frame(lapply(data, function(x) type.convert(as.character(x), as.is = TRUE)))
+  	#data <- data.frame(lapply(data, function(x) type.convert(as.character(x), as.is = TRUE)))
+    data <- data.frame(lapply(data, function(x) as.numeric(x)))
     colnames(data)[1] <- "userID"
     return(data)
 }
